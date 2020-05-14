@@ -1,5 +1,5 @@
 <?php
-echo "Hoi gebgruiker!";
+echo "Hoi gebruiker!";
 echo "<br> <br>";
 
 //prompt function
@@ -14,5 +14,5 @@ function prompt($prompt_msg){
 $prompt_msg = "Zeg hoi terug.";
 $reply = prompt($prompt_msg);
 
-$output_msg = "De gebruiker zegt: ". $reply. "!";
+$output_msg = "De gebruiker zegt: " . $reply . "!";
 echo($output_msg);
